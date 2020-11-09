@@ -34,21 +34,14 @@ class Home extends React.Component {
   render() {
 
     const genericSection01Header = {
-      title: 'Join the Community'
+      title: 'Destake is in development. Follow us to be the first notified of its release.'
     }
 
     return (
       <React.Fragment>
-        <HeroFull className="illustration-section-01 mt-header" />
-        <Networks className="mt-header" topDivider bottomDivider />
-        <How />
-        <Gov topDivider bottomDivider/>
-        <Economics />
-        <Value bottomDivider  />
-        <Tech bottomDivider />
-        <Roadmap />
 
-        <Social topDivider bottomDivider className="center-content">
+
+        <Social className="center-content">
           <div className="container">
             <SectionHeader data={genericSection01Header} className="center-content" />
             <ButtonGroup>

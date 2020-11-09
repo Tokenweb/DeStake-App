@@ -92,9 +92,9 @@ class Header extends React.Component {
           <div className={
             classNames(
               'site-header-inner',
-              bottomDivider && 'has-bottom-divider'
+            
             )}>
-            <Logo />
+
             {!hideNav &&
               <React.Fragment>
                 <button
@@ -126,9 +126,7 @@ class Header extends React.Component {
                       <ul
                         className="list-reset header-nav-right"
                       >
-                        <li>
-                          <a href="https://app.destake.io" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Get Started</a>
-                        </li>
+
                       </ul>}
                   </div>
                 </nav>
